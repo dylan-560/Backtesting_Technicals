@@ -1,0 +1,8 @@
+asset_id,asset_ticker,asset_name,market
+1,EUR-USD,Euro/Dollar,Forex
+2,USD-JPY,Dollar/Yen,Forex
+3,GBP-USD,Pound/Dollar,Forex
+4,BTC-USD,Bitcoin,Crypto
+5,ETH-USD,Ethereum,Crypto
+6,SPY,S&P 500 ETF,Equities
+7,IWM,Russel 2000 ETF,Equities
