@@ -1,8 +1,6 @@
 # Backtesting
-Backtesting program for purely technical based trading strategies. 
-All entry and exit values are based on closing price. 
-All gains and losses are expressed as units of a set per trade risk (R = |entry price - stop loss price|)
-# Method
+This is a backtesting program for purely technical based trading strategies. It works by taking a range of inputs as parameters of a particular strategy and creating a list of permutations for that strategy. Each permutation of the strategy is tested and a list of evaluation metrics are created and stored. For simplicity's sake, strategies are only tested on a handful of assets with the data for each asset spanning two months of hourly candle data. All entry and exit values are based on closing price. All gains and losses are expressed as units of a set per trade risk (R = |entry price - stop loss price|)
+# Basic Outline
 	Select market (currently either crypto or forex)
 	select the assets you want to test for selected market
 	Select the timeframe to test
@@ -17,7 +15,7 @@ All gains and losses are expressed as units of a set per trade risk (R = |entry 
 	-				create a database table for asset-timeframe-strategy to store strategy results if one doesnt already exist
 	-					get permutations list
 	-					loop through permuations list
-	-						run strat for each permutation
+	-						run strategy for each permutation
 	-						get eval metrics
 	-						store eval metrics
 
